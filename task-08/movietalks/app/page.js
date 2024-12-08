@@ -42,7 +42,6 @@ export default function Home() {
         <p className={styles.introSubtitle}>Discover movies, create lists, and connect with TFI kattu banisa!</p>
       </header>
       <div className={styles.line}><hr /></div>
-      {/* Main container displaying popular and upcoming films */}
       <div className={styles.main}>
         <div>
           <h2 className={styles.sectionTitle}>Featured Films</h2>

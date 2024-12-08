@@ -47,7 +47,6 @@ const MemberPage = () => {
         <h1>{memberdata.username}</h1>
       </div>
       <button className={styles.button}>Follow</button>
-    {/* lists that user created */}
       <div className={styles.listsContainer}>
         <h2 className={styles.sectionTitle}>Lists Created</h2>
         {memberdata.lists.map((list) => (
@@ -58,7 +57,7 @@ const MemberPage = () => {
           </div>
         ))}
       </div>
-      <div className={styles.listsContainer}>        {/* movies which we gave review */}
+      <div className={styles.listsContainer}>       
         <h2 className={styles.sectionTitle}>Movies Reviewed</h2>
         {memberdata.filmsReviewed.map((movie) => (
           <div key={movie.id} className={styles.card}>

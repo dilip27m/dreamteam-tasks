@@ -19,7 +19,7 @@ const MembersPage = () => {
             </div>
           </Link>
         </div>
-<div className={styles.card}>{/* for member 2 */}
+<div className={styles.card}>
           <Link href="/members/member2">
             <div>
               <Image src="/images/p.jpg"   alt="User Profile" width={100} height={100} />

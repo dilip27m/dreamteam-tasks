@@ -22,17 +22,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        
-      >
+      <body>
         <header className={styles.navbarBox}>
         <Link href="/">        <p className={styles.navbarLogo}>
         Movie<span style={{ color: "white" }}>Talks</span>
       </p></Link>
-      
           <nav className="flex gap-8">
-
-            
             <Link className={styles.navbarButton} href="/signin">Login</Link>
             <Link className={styles.navbarButton} href="/signup">Create Account</Link>
           </nav>
@@ -42,4 +37,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-//this navigation bar will be used before user signin or signup

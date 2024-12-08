@@ -1,36 +1,9 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend using Next.js
 
-## Getting Started
+### Approach
+I started reading the documentation and i was not understanding that much.so, i decided to see a youtube video of feecodecamp 4hrs video for just seeing 1hr video it consumed my 4hrs 
+as was parallely making the project showing in the video.so i decided to stop watching the video as it is talking much time to explain basic concepts .but from the video i learnt about routing ,index,page.js and dynamic files .later i started building the project with this and some documentation knowledge.i was getting to many errors but the link for the error was by next.js itself i use to read it and solve and apply the knowledge for next pages implemntation ,if dont know some function i will google and learn that or stackoverflow most my errors were solved by next.js it self some were done by stack overflow
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Review of the task 
+This task was very useful for me i can use this knowledge for my campus and future projects also from this task i learnt we should not learn entire concept and then work on projects instead we need to learn by working on projects .

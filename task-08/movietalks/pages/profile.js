@@ -26,7 +26,7 @@ const Profile = () => {
   };
 
   return (
-    <div className={styles.container}>{/* details of user*/}
+    <div className={styles.container}>
       <div className={styles.user}>
         <Image src={user.photo} alt="Profile Photo" className="rounded-full" width={96} height={96}/>
         <div>
@@ -34,7 +34,7 @@ const Profile = () => {
           <p>{user.email}</p>
         </div>
       </div>
-      <div>{/* members list user follows */}
+      <div>
         <h2 className={styles.sectionTitle}>Following</h2>
         <div className={styles.listContainer}>
           {
@@ -51,7 +51,7 @@ const Profile = () => {
            }
         </div>
       </div>
-      <div> {/* Watchlater films */}
+      <div> 
         <h2 className={styles.sectionTitle}>Watchlater</h2>
         <div className={styles.listsContainer}>
           {
@@ -64,7 +64,7 @@ const Profile = () => {
           }
         </div>
       </div>
-      <div>{/* all the films which user reviewed*/}
+      <div>
         <h2 className={styles.sectionTitle}>Movies Reviewed</h2>
         <div className={styles.listsContainer}>
           {
@@ -81,7 +81,7 @@ const Profile = () => {
           }
         </div>
       </div>
-      <div> {/* lists created by user */}
+      <div> 
         <h2 className={styles.sectionTitle}>Lists Created</h2>
         <div className={styles.listsContainer}>
           {

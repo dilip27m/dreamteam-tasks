@@ -13,7 +13,7 @@ const IMG_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 export default function Home() {
   const [featuredFilms, setFeaturedFilms] = useState([]);
   const [upcomingFilms, setUpcomingFilms] = useState([]);
-  const fetchFeaturedFilms = async () => {// fetching popular films through the API
+  const fetchFeaturedFilms = async () => {
     const response = await axios.get(`${BASE_URL}/movie/popular`, {
       params: {
         api_key: API_KEY,
@@ -21,7 +21,7 @@ export default function Home() {
     });
     setFeaturedFilms(response.data.results.slice(0, 10)); 
   };
-  const fetchUpcomingFilms = async () => {  // fetching upcoming films through the API
+  const fetchUpcomingFilms = async () => { 
     const response = await axios.get(`${BASE_URL}/movie/upcoming`, {
       params: {
         api_key: API_KEY,

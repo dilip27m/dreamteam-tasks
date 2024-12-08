@@ -8,7 +8,6 @@ const MoviePage = () => {
   const API_KEY = "d2bc73edeb149ddddfb9c2021a429224";
 
   useEffect(() => {
-    // fetch the popular movies when page is loaded
     fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&language=en-US&page=1`)
       .then((response) => response.json())
       .then((data) => {
@@ -27,7 +26,7 @@ const MoviePage = () => {
       <div className={styles.search}>
         <input type="text" placeholder="search for movies"></input>
       </div>
-      <div className={styles.container}> {/* movies container */}
+      <div className={styles.container}>
         {
           movies.map((movie) => (
             <div key={movie.id} className={styles.card}>
