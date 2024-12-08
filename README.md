@@ -12,7 +12,7 @@
 | 05       | [Not a SRS Doc](https://github.com/dilip27m/dreamteam-tasks/tree/main/task-05)               |
 | 06       | [Wireframe the Skeleton](https://github.com/dilip27m/dreamteam-tasks/tree/main/task-06)|
 | 07       | [Figma Design Task](https://github.com/dilip27m/dreamteam-tasks/tree/main/task-07)|
-| 08       | [Frontend Development]() |
-| 09       | [Backend Development]()   |
+| 08       | [Frontend Development](https://github.com/dilip27m/dreamteam-tasks/tree/main/task-08/movietalks)|
+| 09       | [Backend Development](https://github.com/dilip27m/dreamteam-tasks/tree/main/task-09)   |
 
 
